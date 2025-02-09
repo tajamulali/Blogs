@@ -1,0 +1,110 @@
+<!-- Blog Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Clone Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../blogs/styles/blog.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container shadow">
+            <nav class="navbar">
+                <a class="navbar-brand">Blogs</a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html">Projects</a></li>
+                    <li><a href="../index.html">Blog</a></li>
+                    <li><a href="../index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Body Section -->
+    <section class="body">
+        <div class="container shadow">
+            <section class="blog container py-5 shadow-sm">
+                <h1 class="blog-title text-center mb-4">Inside My Pinterest Clone 🖼️ | Node.js + Express.js + MongoDB Project</h1>
+                <p class="mb-5">Building a Pinterest Clone has been a thrilling journey, pushing my skills in full-stack development. This blog post takes you inside the project—covering its inspiration, core functionalities, technical aspects, challenges faced, and future enhancements.</p>
+                
+                <article class="blog-post">
+                <div class="mb-5">
+                    <h2 class="text-center">Inspiration Behind the Project</h2>
+                    <p>Pinterest is a visually driven platform that enables users to discover and save creative ideas. I aimed to replicate its core functionalities while gaining hands-on experience with modern web technologies.</p>
+                </div>
+                 
+                <div class="mb-5">
+                    <h2 class="text-center">Key Features of My Pinterest Clone</h2>
+                    <ul>
+                        <strong>For Users:</strong> 
+                            <li>Secure authentication (Signup/Login via Passport.js).</li>
+                            <li>Personalized user feed displaying posts from all users.</li>
+                            <li>Image uploading feature (Multer for handling file uploads).</li>
+                        <strong>Upcoming Features:</strong> 
+                            <li>Board creation to categorize saved images.</li>
+                            <li>Like functionality for user interaction.</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-5">
+                    <h2 class="text-center">Technologies Powering the System</h2>
+                    <ul>
+                        <strong>Backend:</strong>
+                            <li>Node.js & Express.js: Managing server-side logic and API handling.</li>
+                            <li>MongoDB & Mongoose: Efficient database storage for users, posts, and future boards.</li>
+                            <li>Express-session & Passport.js: Secure user authentication.</li>
+                        <strong>Frontend:</strong> 
+                            <li>EJS templating engine: Dynamic rendering of user interfaces.</li>
+                            <li>Custom CSS & Bootstrap: Styling and responsive design.</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-5">
+                    <h2 class="text-center">Challenges and Solutions</h2>
+                    <ul>
+                        <li><strong>Handling User Sessions:</strong> Managing user authentication securely across sessions required configuring Express-session properly.</li>
+                        <li><strong>Image Uploads:</strong> Implementing Multer for file handling while ensuring security and efficient storage.</li>
+                        <li><strong>Scalability:</strong> Structuring the database for optimized queries to handle large amounts of image data.</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-5">
+                    <h2 class="text-center">Future Enhancements</h2>
+                    <ul>
+                        <li>Complete board functionality to allow users to organize pins.</li>
+                        <li>Like and comment features for more user engagement.</li>
+                        <li>Real-time updates and notifications.</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-5">
+                    <h2 class="text-center">Final Thoughts</h2>
+                    <p>This project has been a fantastic learning experience, reinforcing my skills in backend development, database management, and frontend design. I’m excited to refine it further and explore new possibilities.</p>
+                    <h4>Want to see the code? <a href="https://github.com/tajamulali/Pinterest" class="blog_link">Check it out on GitHub!</a></h4>
+                </div>
+                </article>
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container text-center text-dark shadow">
+            <p>&copy; 2025 Tajamul Ali. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/tajamulali" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/tajamulali" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

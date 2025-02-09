@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Tajamul Ali</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .navbar ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+        .navbar ul li a:hover {
+            color: #f39c12;
+        }
+        .blog-intro {
+            text-align: center;
+            padding: 50px 20px;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .blog-intro h1 {
+            font-size: 36px;
+            color: #222;
+        }
+        .blog-intro p {
+            font-size: 18px;
+            color: #555;
+        }
+        .blog-list {
+            padding: 50px 20px;
+        }
+        .blog-list h2 {
+            text-align: center;
+            font-size: 28px;
+            color: #222;
+        }
+        .blog-item {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #f39c12;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .blog-item:hover {
+            transform: translateY(-5px);
+        }
+        .blog-item h3 a {
+            text-decoration: none;
+            color: #222;
+            font-size: 22px;
+            transition: color 0.3s ease-in-out;
+        }
+        .blog-item h3 a:hover {
+            color: #f39c12;
+        }
+        .blog-item p {
+            color: #555;
+            font-size: 16px;
+        }
+        .footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Tajamul Ali</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Introduction Section -->
+    <section class="blog-intro">
+        <div class="container">
+            <h1>Welcome to My Blog</h1>
+            <p>Hi, I'm Tajamul Ali, a passionate developer and blogger. I love sharing insights on web development, programming best practices, and industry trends.</p>
+        </div>
+    </section>
+
+    <!-- Blog List Section -->
+    <section class="blog-list">
+        <div class="container">
+            <h2>Recent Blogs</h2>
+
+            <div class="blog-item">
+                <h3><a href="blogs/blog1.html">Inside My Pinterest Clone 🖼️ | Node.js + Express.js + MongoDB Project</a></h3>
+                <p>Building a Pinterest Clone has been a thrilling journey, pushing my skills in full-stack development. T
+                    his blog post takes you inside the project—covering its inspiration, core functionalities, technical 
+                    aspects, challenges faced, and future enhancements.</p>
+            </div>
+
+            <div class="blog-item">
+                <h3><a href="blogs/blog2.html">Inside My Hotel Booking System Project: Challenges and Solutionse</a></h3>
+                <p>Creating a Hotel Booking System has been one of the most rewarding experiences of my development journey.</p>
+            </div>
+            <div class="blog-item">
+                <h3><a href="blog1.html">Understanding RESTful APIs</a></h3>
+                <p>A beginner-friendly guide to RESTful APIs and their importance in web development.</p>
+            </div>
+            <div class="blog-item">
+                <h3><a href="blog2.html">Top JavaScript ES6 Features</a></h3>
+                <p>An overview of essential ES6 features that every JavaScript developer should know.</p>
+            </div>
+            <div class="blog-item">
+                <h3><a href="blog3.html">Optimizing Performance in React</a></h3>
+                <p>Learn various techniques to enhance the performance of your React applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Tajamul Ali. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

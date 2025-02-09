@@ -1,0 +1,103 @@
+<!-- Blog Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Attendance System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../blogs/styles/blog.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container shadow">
+            <nav class="navbar">
+                <a class="navbar-brand">Blogs</a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html">Projects</a></li>
+                    <li><a href="../index.html">Blog</a></li>
+                    <li><a href="../index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Content Section -->
+    <section class="body">
+        <div class="container shadow">
+            <section class="blog container py-5 shadow-sm">
+                <h1 class="blog-title text-center mb-4">Inside My Face Recognition Attendance System: A Smarter Way to Track Attendance</h1>
+                <p class="mb-5">
+                    Traditional attendance systems rely on manual entries, RFID cards, or fingerprint scanners. However, these methods come with challenges such as proxy attendance and inefficiency in large-scale environments. <br><br>
+                    Our **Face Recognition Attendance System** leverages modern **AI-driven facial recognition** to automate attendance tracking, making it seamless, accurate, and secure.
+                </p>
+
+                <article class="blog-post">
+                    <div class="mb-5">
+                        <h2 class="text-center">Inside My Face Recognition Attendance System</h2>
+                        <p>
+                            The system is built using **Python, OpenCV, and deep learning models** for face recognition. It captures real-time images, compares them with stored facial data, and marks attendance automatically.
+                        </p>
+                        <ul>
+                            <li><strong>Face Detection:</strong> The system uses **Haar cascades** and **Dlib’s face detection** techniques to locate faces in an image.</li>
+                            <li><strong>Feature Extraction:</strong> OpenCV extracts unique facial landmarks for identification.</li>
+                            <li><strong>Face Recognition Model:</strong> A pre-trained **deep learning model** classifies the recognized faces.</li>
+                            <li><strong>Attendance Logging:</strong> Recognized users' attendance is **stored in a database** with timestamps.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <h2 class="text-center">A Smarter Way to Track Attendance</h2>
+                        <p>Why use face recognition over traditional methods? Here’s how it makes attendance tracking smarter:</p>
+                        <ul>
+                            <li><strong>Contactless:</strong> Unlike fingerprint systems, it requires no physical touch, ensuring hygiene.</li>
+                            <li><strong>Accuracy:</strong> Reduces human error and prevents proxy attendance.</li>
+                            <li><strong>Time Efficiency:</strong> Marks attendance in **milliseconds** compared to manual or RFID-based systems.</li>
+                            <li><strong>Scalability:</strong> Easily integrates with school, corporate, or government systems.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <h2 class="text-center">Challenges and Solutions</h2>
+                        <p>
+                            Developing an AI-powered attendance system comes with its own set of challenges. Here’s how we tackled them:
+                        </p>
+                        <ul>
+                            <li><strong>Lighting Conditions:</strong> Face detection accuracy drops in poor lighting. Solution: Implement **adaptive histogram equalization** for better face clarity.</li>
+                            <li><strong>Face Mask Detection:</strong> Many users wear masks, making recognition difficult. Solution: Integrate **mask-aware AI models**.</li>
+                            <li><strong>Data Storage & Privacy:</strong> Storing face data requires security measures. Solution: Encrypt facial features instead of storing raw images.</li>
+                            <li><strong>Multiple Faces in Frame:</strong> The system must distinguish between multiple people. Solution: Use **bounding box confidence scores** to ensure correct identification.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <h2 class="text-center">Conclusion</h2>
+                        <p>
+                            The **Face Recognition Attendance System** revolutionizes attendance tracking, making it **efficient, accurate, and future-ready**. By leveraging AI, we have eliminated outdated, manual processes and introduced a seamless, **tech-driven solution** for organizations and institutions.
+                        </p>
+                        <h4>Want to see the code? <a href="https://github.com/tajamulali/face_recognization_attendance" class="blog_link">Check it out on GitHub!</a></h4>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container text-center shadow">
+            <p>&copy; 2025 Tajamul Ali. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/tajamulali" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/tajamulali" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
